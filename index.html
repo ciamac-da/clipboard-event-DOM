@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Events-Clipboard</title>
+<style>
+.myDIV{
+      margin: 10px;
+      padding: 10px;
+      border: 1px #000 solid;
+      background-color: lightgreen;
+      border-radius: 5px;
+      font-family: tahoma;
+      direction: ltr;
+      text-align: left;
+      position: relative;
+}
+
+
+
+</style>
+
+</head>
+<body>
+            
+      <!--@keyframes mymove{
+                  from{top:0px;}
+                  to{top:200px;}
+            } -->
+
+      <div class="myDIV">
+            <input type="text" name="" id="myInput" value="www.codepen.io">
+      </div>
+      <div class="myDIV">
+            <!--Address copied!-->
+            <span>Address >> </span>
+            <span id="mySpan"></span>
+      </div>
+      <div class="myDIV">
+                  <span> Clipboard's text </span>
+                  <span id="myClipboard"></span>
+            </div>
+      <script src="clipboard.js"></script>
+</body>
+</html>
